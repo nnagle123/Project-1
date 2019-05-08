@@ -2,7 +2,7 @@
 <html>
     <head>
 
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+                
 <title>Aloha Project</title>
 
 <!--Project One for Red Academy Web Dev Program-->
@@ -11,75 +11,77 @@
 <meta name="author" content="Nate Nagle"/>
 
 <link rel="stylesheet" href="css/style.css">
-   
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">  
     </head>
+<body>
 
-<div class="header">
-
-    <div class="logo">
-        <img src="images/aloha-logo.svg" alt="logo">
+<header>
+    <div class= "logocontainer">
+        <img src="images/aloha-logo.svg" alt="logo"class="logo">
     </div>
 
-   
             <ul class="navbar">                 
                 <li>about</li>
                 <li>shop</li>
                 <li>featured</li>
                 <li>updates</li>
             </ul>
-    
 
-    <div class="cart">
-        <img src="images/cart-icon.svg" alt="shopping cart icon">
+        <div class="cartcontainer">
+            <img src="images/cart-icon.svg" alt="shopping cart icon"class="cart">
+        </div>
+
+    </div>
+</header>
+
+
+
+<div class="img-container">
+    <div class= "inner container">
+            <h2>NEW COLLECTION </h2>
+            <h1>Spring/Summer 2019</h1>
     </div>
 
 </div>
 
-
-
-<div class="top">
-
-    <section class="toptext">
-            <h2>NEW COLLECTION </h2>
-            <h1>Spring/Summer 2019</h1>
-    </section>
-<!--
-        <img src="images/background.jpg" alt="Top section Background" class="background" >
-        <img src="images/girl.png" alt="Background Girl" class="girl">
--->
-</div>
-
 <section class="break">
-        <h3>Hand-Crafted</h3>
-        <h3><strong>Styles</strong></h3>
+        <h3>Hand-Crafted <span>Styles</span></h3>
         <p>Aloha Apparel Co. Sells only the finest ready-to-tracel clothing.  
-            Browse our current selection of products or sign-up for updates below. </p>
+            Browse our <br>current selection of products or sign-up for updates below. </p>
 
 </section>
 
-<section></section>
 
 <div class="images">
-
-    <img src="images/mens.jpg" alt="men's section image" class="mens">
+        <div class="mens">>
+    <img src="images/mens.jpg" alt="men's section image">
         <h3 class="menstext">MEN'S</h3>
-    <img src="images/trends.jpg" alt="trend's section image" class="trends">
+        </div>
+        <div class="trends">
+    <img src="images/trends.jpg" alt="trend's section image">
         <h3 class="trendstext">TRENDS</h3>
-    <img src="images/glasses.jpg" alt="glasses section image" class="glasses>">
+        </div>
+        <div class="glasses">
+    <img src="images/glasses.jpg" alt="glasses section image">
         <h3 class="glassestext">GLASSES</h3>
-    <img src="images/sale.jpg" alt="sale section image" class="sale">
+        </div>
+        <div class="sale">
+    <img src="images/sale.jpg" alt="sale section image">
         <h3 class="saletext">SALE</h3>
-    <img src="images/bags.jpg" alt="bag's section image" class="bags">
+        </div>
+        <div class="bags">
+    <img src="images/bags.jpg" alt="bag's section image">
         <h3 class="bagstext">BAGS</h3>
-    <img src="images/womens.jpg" alt="women's section image" class="womens">
+         </div>
+        <div class="womens">
+    <img src="images/womens.jpg" alt="women's section image">
         <h3 class="womenstext">WOMEN'S</h3>
-
+        </div>
 </div>
 
 <div class="slider">
 
-<h4>Most-Loved</h4>
-<h5>Products</h5>    
+   <h5>Most-Loved <span>Products</span></h5>  
     <slider>
             <slide><h4>Blue Hipster Backpack</h4></slide>
             <slide><h4>Blue Silk Dress</h4></slide>
@@ -96,31 +98,20 @@
 
 <div class="prefooter">
 
-    <img src="images/wave.jpg" alt="beautiful waves crashing into subscribe button" class="prefooterbackground">
 
-    <h6>Sign-up for</h6>
-    <h7>Updates</h7>
+<div class=prefootertext>
+    <h6>Sign-up for<span>Updates</span></h6>
     <p>Stay updated on our latest product releases, be the first to find out about <br>
     upcomig sales, and get free style tips from our blog.  Unsubsctibe at any time. </p>
-
-    <form>
+</div>
+    <form class=emailoptin>
             <input type="email" placeholder="Your email address">
             <input type="submit" value="Subscribe">
       </form>
-
-
 </div>
 
 
-
-
-
-</div>
-
-<div class="footer">
-
-
-
+<footer>
 <div class="contactinfo">
 <ul>
     <li><i class="far fa-copyright"></i> 2019 Aloha Apparel Co.</li>
@@ -134,19 +125,15 @@
 </div>
 
 <section class="socialclass">
-    <ul>
+    <ul class="social1">
         <li><i class="fab fa-facebook"></i><span class="social">Facebook</span></li>
         <li><i class="fab fa-instagram"></i><span class="social">Instagram</span></li>
         <li><i class="fab fa-twitter-square"></i><span class="social">Twitter</span></li>
         <li><i class="fab fa-pinterest"></i><span class="social">Pintrest</span></li>
         <li><i class="fab fa-google-plus-g"></i><span class="social">Google+</span></li>
     </ul>
-
 </section>
-
-
-
-
-</div>
-   
-                </html>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
